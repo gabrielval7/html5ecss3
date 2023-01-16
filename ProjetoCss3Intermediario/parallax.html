@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Parallax</title>
+	<style type="text/css">
+		.conteudo{
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+		h3{
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+		body, html{
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+			border: 1px solid black;
+		}
+		.titulo{
+			position: absolute;
+			left: 40%;
+			top: 45%;
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 4px;
+		}
+		p{
+			margin-bottom: 15px;
+		}
+		/*Efeito PARALLAX*/
+		.caixa1, .caixa2, .caixa3, .caixa4{
+			position: relative;
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.caixa1{
+			background-image: url(Imagens/imagem1.jpg);
+
+		}
+		.caixa2{
+			background-image: url(Imagens/imagem2.jpg);
+		}
+		.caixa3{
+			background-image: url(Imagens/imagem3.jpg);
+
+		}
+		.caixa4{
+			background-image: url(Imagens/imagem4.jpg);
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="caixa1">
+		<div class="titulo">
+			Passeio de balões
+		</div>
+	</div>
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+		<p>Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+	</div>
+	<div class="caixa2">
+		<div class="titulo">Caminhe no Bosque</div>
+	</div>
+	<div class="caixa3">
+		Imagem 3
+	</div>
+	<div class="conteudo">
+		<h3>Parallax</h3>
+		<p>Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+		<p>Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+	</div>
+	<div class="caixa4">
+		Imagem 4
+	</div>
+</body>
+</html>

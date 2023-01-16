@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	width: 100%;
+	height: 170px;
+	background-color: #313007;
+}
+#logo{
+	margin-left: 80px;
+	margin-top: 30px;
+	display: inline-block;
+}
+#menu{
+	position: relative;
+	top : -30px;
+	left: 730px;
+}
+header a{
+	display: inline-block;
+	text-decoration: none;
+	color: #DE8107;
+	font-size: 0.95em;
+	margin: 10px;
+}
+header a:hover{
+	color: #26672D;
+	text-decoration: underline;
+}
+header li{
+	list-style: none;
+}
+/*#foto1{
+	position: relative;
+	bottom: 100px;
+	left: 80px;
+}
+#foto2{
+	position: relative;
+	bottom: 100px;
+	left: 100px;
+}*/
+body{
+	background: #f4f2ec url(imagens/fundo.png) repeat-x;
+	font-family: "Lucida Grande", sans-serif;
+}
+#corpo{
+	width: 1080px;
+	margin-left: 80px;
+	margin-top: -100px;
+}
+#conteudo{
+	width: 710px;
+	float: left;
+}
+#conteudo li{
+	margin-left: 35px;
+	color: #D12806;
+	font-size: 0.9em;
+}
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+}
+h3{
+	margin: 10px;
+	color: green;
+}
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
+}
+
+section#visita{
+	background: #cdc8c1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+section#galeria{
+	padding: 0 27px 0 27px;
+}
+section#galeria a{
+	display: block;
+	background: url(imagens/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 15px;
+	margin: 10px 0 0 20px;
+}
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
+}
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+input.campo{
+	border: 1px solid #ada484;
+}
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+fieldset{
+	border: none;
+}
+legend{
+	display: none;
+}
+#mapa{
+	float: right;
+	width: 310px;
+	margin-right: 20px;
+}
+#video{
+	float: left;
+	width: 310px;
+	margin-left: 10px;
+}
+#exposicoes{
+	width: 310px;
+	float: left;
+	margin-left: 10px;
+	clear: both;
+}
+#historia{
+
+}
+#historia p{
+	font-size: 0.8em;
+	color: red;
+
+}

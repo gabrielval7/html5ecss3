@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", sans-serif;
+	background: #fff url(imagens/fundo.png) repeat-x;
+}
+#logo{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+header{
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+	height: 170px;
+	padding-top: 20px;
+	width: 700px;
+	margin-left: 310px;
+}
+
+ul{
+	list-style: none;
+}
+header ul{
+	background: #b10333;
+	margin-top: 10px;
+	float: left;
+}
+header ul li{
+	float: left;
+}
+header a{
+	font-size: 0.9em;
+	padding: 0.5em 1.5em;
+	color: white;
+	text-decoration: none;
+	display: block;
+	background: url(imagens/divisor.png) no-repeat left center;
+	line-height: 1.5em;
+}
+header a:hover{
+	color: black;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+
+#menu-lateral{
+	float: left;
+	width: 150px;
+	
+}
+h3{
+	background: #0C218E;
+	color: #fff;
+	font-size: 0.98em;
+	padding: 5px;
+}
+#menu-lateral ul li{
+	padding: 5px;
+	font-size: 0.9em;
+}
+#menu-lateral a{
+	text-decoration: none;
+	color: black;
+}
+#news{
+	margin-top: 30px;
+}
+#news input{
+	width: 140px;
+}
+#news label{
+	font-size: 0.9em;
+	padding: 5px;
+}
+#news button{
+	margin: 5px;
+}
+#menu-central{
+	display: inline-block;
+	margin-left: 30px;
+	float: center;
+	width: 250px;
+}
+#menu-direita{
+	position: relative;
+	margin-left: 30px;
+	width: 250px;
+	clear: both;
+	float: right;
+	overflow: hidden;
+	top : -453px
+}
+footer{
+	clear: both;
+	background: #294c71;
+	color: #fff;
+	height: 60px;
+	text-align: center;
+
+}
+#menu-central img{
+	width: 250px;
+	height: 200px;
+	padding-top: 5px;
+}

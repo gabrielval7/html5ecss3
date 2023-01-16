@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	Posicionamentos(Static, relative, absolute e fixed)
+	</title>
+
+	<style type="text/css">
+		body{
+			background-color: lightgrey;
+		}
+		#container{
+			background: lightgreen;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+		}
+
+		h1{
+			position: static;
+		}
+		p{
+			width: 300px;
+
+		}
+		.absolute{
+			border: 1px solid black;
+			position: absolute;
+		}
+		.relative{
+			border: 1px solid red;
+			position: relative;
+			bottom: 130px;
+			left: 400px;
+
+		}
+		.fixed{
+			border: 1px solid black;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<!-- A posição padrão dos objetos block são static -->
+		<!-- Absolute faz com que o objeto nao existisse, e o fluxo da pagina continua normalmente com esse objeto -->
+		<!-- Fixed faz com que um objeto fica parado mesmo vc rolando a pagina pra baixo ou pra cima -->
+		<h1 class="absolute">Posicionamentos</h1>
+		<p class="">p1 Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+		<p class="relative">p2 Alguns minutos de estudo por dia valem a pena. Pesquisas mostram que os alunos que fazem do estudo um hábito têm maior probabilidade de alcançar suas metas. Reserve um tempo para estudar e receba lembretes usando seu programador de aprendizado.</p>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<h3 class="fixed">FIXO</h3>
+	</div>	
+
+</body>
+</html>

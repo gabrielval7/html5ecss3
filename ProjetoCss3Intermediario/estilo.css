@@ -1,0 +1,10 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width: 720px;
+	margin: 0 auto;
+	background: #fff;
+}
